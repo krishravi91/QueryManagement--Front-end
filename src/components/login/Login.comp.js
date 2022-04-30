@@ -16,11 +16,7 @@ export const LoginForm = ({formSwitcher}) => {
 
       console.log(email, password);
   }
-  const resetMovieForm =() => {
-    setEmail("");
-    setPassword("");
-  }
-
+ 
   return (
     <Container>
         <Row>
