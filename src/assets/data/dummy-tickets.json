@@ -3,7 +3,29 @@
         "id":1,
         "status":"Client response pending",
         "subject":"BootStrap",
-        "date": "2202-05-11"
+        "date": "2202-05-11",
+        "history": [
+           {
+              "date": "20-10-10",
+              "message": "hksbhfbs",
+              "messageBy": "client"
+           },
+           {
+            "date": "20-10-10",
+            "message": "hksbhfbs",
+            "messageBy": "client"
+         },
+         {
+            "date": "20-10-10",
+            "message": "hksbhfbs",
+            "messageBy": "client"
+         },
+         {
+            "date": "20-10-10",
+            "message": "hksbhfbs",
+            "messageBy": "client"
+         }
+        ]
      },{
         "id":2,
         "status":"Client response pending",
