@@ -2,10 +2,10 @@ import React from 'react'
 import {Table} from 'react-bootstrap';
 
 export const TicketTable = ({tickets}) => {
+    // console.log(tickets)
   return (
     <Table striped bordered hover>
         <thead>
-
             <tr>
                 <th>#</th>
                 <th>Subjects</th>
@@ -25,7 +25,7 @@ export const TicketTable = ({tickets}) => {
         ))
         ) : (
             <tr>
-                <td colspan ='4' className='text-center'>No Ticket Show</td>
+                <td colSpan ='4' className='text-center'>No Ticket Show</td>
             </tr>
         )}    
         </tbody>
